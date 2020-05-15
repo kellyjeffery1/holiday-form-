@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	background-color: #6a6a6e;
+}
+.nav {
+	opacity: 0.7px;
+}
+.header {
+	background-image: url(https://images.unsplash.com/photo-1549298385-f62e042575a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: whitesmoke;
+	height: 25pc;
+	border-radius: 0 0 85% 85% / 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.header-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-title {
+	letter-spacing: 5px;
+	font-weight: 600;
+	font-size: 30px;
+}
+.book-btn {
+	letter-spacing: 3px;
+	padding: 16px 17px;
+	background: none;
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	z-index: 7;
+}
+.book-btn:hover {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.holiday-form {
+	background-color: white;
+	margin: 40px 30px 30px 50px;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 1px solid #efefef;
+	box-shadow: 0 5px 10px #e5e5ec;
+	padding: 30px;
+}
+.item-align {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.first-itembox {
+	margin: 30px 10px 10px 70px;
+}
+.second-itembox {
+	margin: 10px 10px 10px 80px;
+}
+input[type=text] {
+	margin: 3px;
+	padding: 4px;
+	font-size: 12px;
+	border-color: whitesmoke;
+}
